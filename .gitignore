@@ -1,0 +1,96 @@
+# Environment and Configuration Files
+.env
+.env.local
+.env.production
+config.local.php
+database.config.php
+
+# Sensitive Files (DO NOT COMMIT)
+test_email.php
+test_db.php
+backup_credentials.txt
+passwords.txt
+credentials/
+
+# PHP specific
+*.log
+*.tmp
+*.temp
+error_log
+access.log
+
+# Database exports (may contain sensitive data)
+*.sql.gz
+*.sql.bz2
+database_dumps/
+backups/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.sublime-project
+.sublime-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Prepros configuration files
+prepros.config
+prepros-6.config
+
+# Upload directories (may contain sensitive files)
+uploads/
+temp_uploads/
+user_files/
+
+# Cache and session files
+cache/
+sessions/
+tmp/
+
+# Composer (if using)
+vendor/
+composer.lock
+
+# Node modules (if using)
+node_modules/
+package-lock.json
+
+# Git files (for when reinitializing)
+.git/
+
+# Temporary files
+*.bak
+*.backup
+*.old
+
+# Logs
+logs/
+*.log
+
+# Cache
+cache/
+*.cache
+
+# Uploads (if any)
+uploads/
+temp/
+
+# Sensitive email credentials
+# Note: The email password in forgotpwd.php should be moved to environment variables
+
+# Problematic files (Windows reserved names)
+**/con.png
+
+# Nested repositories
+on_site_human_resourse/
